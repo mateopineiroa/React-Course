@@ -1,0 +1,4 @@
+npm init vite@latest
+cd ./nombreProyecto
+npm install
+npm run dev

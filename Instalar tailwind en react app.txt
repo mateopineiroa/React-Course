@@ -1,0 +1,22 @@
+1)
+	npm i -D tailwindcss postcss autoprefixer
+
+	-El -D es por que es de desarrollo
+	-Las otras dos dependencias las precisa tailwind
+
+2)
+	npx tailwindcss init -p
+
+	-Crea archivos para configurar tailwind y postcss
+
+3)
+	-Agrego el siguiente texto en index.css
+	-Son "directivas o paquetes de tailwind"
+	
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+4)
+	-Agrego los archivos html y los componentes que van a estar usando el css de tailwind en el archivo tailwind.config.js. 
+	-Estos deben estar en forma de arreglo de strings de direcciones de archivos en la seccion content de module.exports.
