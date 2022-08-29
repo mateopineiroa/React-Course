@@ -1,4 +1,4 @@
 npm init vite@latest
 cd ./nombreProyecto
-npm install
+npm install               (install dependences)
 npm run dev
