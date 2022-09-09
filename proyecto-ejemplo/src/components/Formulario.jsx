@@ -97,7 +97,7 @@ const Formulario = ({setPacientes, pacientes}) => {          /* arrow function *
                             onChange={ (e) => setFecha(e.target.value)}/>
                 </div>
                 <div className="mb-5">
-                    <label className="block text-gray-700 uppercase font-bold" htmlFor="alta">alta</label>      {/* for es palabra reservada */}
+                    <label className="block text-gray-700 uppercase font-bold" htmlFor="sintomas">Sintomas</label>      {/* for es palabra reservada */}
                     <textarea 
                             id="sintomas" 
                             placeholder="Describe los sintomas" 
