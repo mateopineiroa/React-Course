@@ -34,8 +34,8 @@ function ListadoPacientes({pacientes, setPaciente}) {               //Traigo set
                                           <>
                                             <h2 className="font-black text-3xl text-center">No hay pacientes</h2>
                                             <p className="text-xl mt-5 mb-10 text-center">
-                                              Si no agregas pacientes como queres que te los muestre boludito {""}                                     {/* Pongo los corchetez para indicar que quiero el ultimo espacio */}
-                                              <span className="text-indigo-600 font-bold">agrega pacientes salamin</span>
+                                              No tienes pacientes actualmente {""}
+                                              <span className="text-indigo-600 font-bold">agrega pacientes por favor.</span>
                                             </p>
                                           </>
                                           
